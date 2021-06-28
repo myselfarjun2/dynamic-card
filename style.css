@@ -1,0 +1,75 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#clothe-coll-heading, #access-coll-heading {
+    font-size: 2.4rem;
+    color: #1b1919;
+    font-weight: 600;
+    margin: 100px auto 40px  70px;
+}
+
+.card-layout {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.padding-bottom {
+  padding-bottom: 150px;
+}
+
+.card-wrapper {
+  width: 200px;
+  height: 410px;
+  box-shadow: 0 0 11px #ccc;
+  margin: 30px 10px;
+  cursor: pointer;
+}
+
+.card-wrapper:hover {
+  box-shadow: 0 0 20px #ccc;
+}
+
+.coll-img {
+  width: 100%;
+}
+
+.coll-content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.coll-content > h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(27, 25, 25);
+  margin-top: 12px;
+}
+
+.coll-brand {
+  font-size: 1.2rem;
+  color: rgb(110, 110, 110);
+  font-weight: 600;
+}
+
+.coll-price {
+  font-size: 15px;
+  color: #009688;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+
+@media (max-width: 400px) {
+  .card-wrapper {
+    width: 165px;
+    height: 380px;
+  }
+}
